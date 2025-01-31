@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main class="form">
+      <section class="inner">
+        <div class="input">
+          <div class="holder">
+            <div class="day">
+              <label for="day">DAY</label>
+              <input
+                type="number"
+                name="DAY"
+                min="1"
+                max="31"
+                placeholder="DD"
+                required
+              />
+            </div>
+            <div class="day">
+              <label for="month">Month</label>
+              <input
+                type="number"
+                name="month"
+                min="01"
+                max="12"
+                placeholder="MM"
+                required
+              />
+            </div>
+            <div class="day">
+              <label for="year">year</label>
+              <input
+                type="number"
+                name="year"
+                min="1900"
+                max="2025"
+                placeholder="YYYY"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="line">
+          <div class="thin"></div>
+          <div class="line-image">
+            <img
+              src="./assets/images/icon-arrow.svg"
+              alt=""
+              style="width: 60%"
+            />
+          </div>
+        </div>
+        <div class="result">
+          <div class="Yearzz">
+            <div class="Years-Space">- -</div>
+            <div class="Years-Text">years</div>
+          </div>
+          <div class="Monthzz">
+            <div class="Months-Space">- -</div>
+            <div class="Months-Text">months</div>
+          </div>
+          <div class="Dayzz">
+            <div class="Days-Space">- -</div>
+            <div class="Days-Text">days</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Poppins:ital,wght@1,400;1,700;1,800;1,900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: darkslateblue;
+  font-family: "Poppins";
+}
+
+.form {
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-bottom-right-radius: 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  width: 95%;
+  height: 100%;
+  border-bottom-right-radius: 80px 120px;
+}
+
+.input {
+  width: 95%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+.line {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.result {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom-right-radius: 80px 100px;
+}
+
+.holder {
+  width: 100%;
+  height: auto;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 11px;
+  text-align: start;
+  margin-left: 5px;
+  font-weight: 700;
+  color: gray;
+  text-transform: uppercase;
+}
+
+input[type="number"] {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid silver;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+input[type="number"]::placeholder {
+  font-weight: 900;
+}
+
+input[type="number"]:focus {
+  border: 1.5px solid gray;
+  outline: none;
+}
+.line-image {
+  width: 60px;
+  height: 60px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.line-image img {
+  width: 60%;
+}
+
+.thin {
+  display: none;
+}
+
+.Yearzz,
+.Monthzz,
+.Dayzz {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.Years-Space,
+.Months-Space,
+.Days-Space {
+  color: blueviolet;
+}
+
+@media (min-width: 768px) {
+  .form {
+    width: 600px;
+    padding: 30px;
+  }
+  .input {
+    margin-right: 60px;
+  }
+  .holder {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .day {
+    width: 28%;
+  }
+
+  input[type="number"] {
+    font-size: 18px;
+  }
+
+  .Yearzz,
+  .Monthzz,
+  .Dayzz {
+    font-size: 3rem;
+  }
+
+  .thin {
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    background-color: silver;
+  }
+
+  .line-image {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form {
+    width: 600px;
+    padding: 30px;
+  }
+
+  .holder {
+    gap: 20px;
+  }
+
+  .day {
+    width: 25%;
+  }
+
+  input[type="number"] {
+    font-size: 20px;
+  }
+
+  .Yearzz,
+  .Monthzz,
+  .Dayzz {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .form {
+    width: 800px;
+    padding: 50px;
+  }
+
+  .holder {
+    gap: 40px;
+  }
+
+  .day {
+    width: 22%;
+  }
+
+  input[type="number"] {
+    font-size: 22px;
+  }
+
+  .Yearzz,
+  .Monthzz,
+  .Dayzz {
+    font-size: 5rem;
+  }
+}
