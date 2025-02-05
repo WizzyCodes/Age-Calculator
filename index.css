@@ -15,11 +15,12 @@ body {
 .attribution {
   font-size: 15px;
   text-align: center;
-  /* visibility: hidden; */
-  /* display: none; */
+  flex-wrap: wrap;
+  padding: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  flex-wrap: wrap;
 }
 .Svg {
   color: blueviolet;
