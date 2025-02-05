@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const yearsDisplay = document.querySelector(".Years-Space");
   const monthsDisplay = document.querySelector(".Months-Space");
   const daysDisplay = document.querySelector(".Days-Space");
+  const refresh = document.querySelector(".Svg");
 
   function createErrorElement() {
     const errorElement = document.createElement("div");
@@ -94,4 +95,15 @@ document.addEventListener("DOMContentLoaded", function () {
     daysDisplay.textContent = ageDays;
   });
   initial();
+
+  refresh.addEventListener("click", function () {
+    initial();
+
+    dayInput.value = "";
+    monthInput.value = "";
+    yearInput.value = "";
+    //   yearsDisplay.value = "";
+    //   monthsDisplay.value = "";
+    //   daysDisplay.value = "";
+  });
 });
