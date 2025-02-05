@@ -11,10 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const errorElement = document.createElement("div");
     errorElement.style.color = "red";
     errorElement.style.fontSize = "9px";
-    // errorElement.style.marginTop = "5px";
     errorElement.style.textAlign = "start";
     errorElement.style.fontWeight = "600";
-    // errorElement.style.fontFamily = "Arial, sans-serif";
     errorElement.style.width = "100%";
     return errorElement;
   }
