@@ -170,6 +170,12 @@ input[type="number"]:focus {
     width: 100%;
     margin-right: 40px;
   }
+  label {
+    margin-left: 10px;
+  }
+  input[type="number"] {
+    padding-left: 10px;
+  }
 }
 @media (min-width: 768px) {
   .form {
