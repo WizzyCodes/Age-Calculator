@@ -163,7 +163,7 @@ input[type="number"]:focus {
   }
   .Svg {
     position: relative;
-    left: 130px;
+    left: 100px;
     bottom: 50px;
   }
   .input {
@@ -188,6 +188,11 @@ input[type="number"]:focus {
   .holder {
     flex-direction: row;
     gap: 20px;
+  }
+  .Svg {
+    position: relative;
+    left: 200px;
+    bottom: 50px;
   }
 
   .day {
@@ -263,10 +268,15 @@ input[type="number"]:focus {
     gap: 40px;
   }
   .line-image {
-    width: 80px;
+    width: 90px;
     height: 80px;
   }
-
+  .line {
+    width: 100%;
+  }
+  .thin {
+    width: 100%;
+  }
   .day {
     width: 22%;
   }
