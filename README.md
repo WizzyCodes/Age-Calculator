@@ -1,4 +1,4 @@
-# Frontend Mentor - Age calculator app
+<!-- # Frontend Mentor - Age calculator app
 
 ![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
 
@@ -16,7 +16,7 @@ Your challenge is to build out this age calculator app and get it looking as clo
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
 - View an age in years, months, and days after submitting a valid date through the form
 - Receive validation errors if:
@@ -33,9 +33,9 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
 If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
@@ -84,12 +84,12 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
 
 There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
+1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
 2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 3. Share your solution on other social channels like LinkedIn.
 4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
@@ -99,4 +99,91 @@ We love receiving feedback! We're always looking to improve our challenges and o
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+**Have fun building!** 🚀 -->
+
+# Frontend Mentor - Age calculator app solution
+
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+
+  - [Useful resources](#useful-resources)
+
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View an age in years, months, and days after submitting a valid date through the form
+- Receive validation errors if:
+  - Any field is empty when the form is submitted
+  - The day number is not between 1-31
+  - The month number is not between 1-12
+  - The year is in the future
+  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: See the age numbers animate to their final number when the form is submitted
+
+### Screenshot
+
+![](./Screenshot%202025-02-05%20at%2011-45-10%20Frontend%20Mentor%20Age%20calculator%20app.png)
+
+### Links
+
+- Live Site URL: ([https://wizagecalculator.vercel.app/])
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Javascript
+
+### What I learned
+
+Completing the Age Calculator challenge was a valuable learning experience that helped me improve my skills in working with dates in JavaScript. Here are some key takeaways from this project:
+
+Mastering the Date Object
+I gained a deeper understanding of the Date object in JavaScript, including how to create date instances, access and manipulate date properties, and perform date calculations. This knowledge enabled me to effectively calculate the user's age in years, months, and days.
+
+Validation Techniques
+I learned how to implement robust validation techniques in JavaScript to ensure that user input is accurate and reliable. This included checking for invalid dates, handling edge cases, and providing informative error messages.
+
+Best Practices for Code Organization
+Through this project, I refined my code organization skills by separating logic into manageable functions, using meaningful variable names, and maintaining a consistent coding style. This made the code easier to read, understand, and maintain.
+
+Key Takeaways
+
+- Effectively working with dates in JavaScript requires a solid understanding of the Date object and its methods.
+- Validation is crucial in ensuring the accuracy and reliability of user input.
+- Good code organization is essential for maintaining readability, scalability, and maintainability.
+
+### Useful resources
+
+- [FreeCodeCamp](https://www.youtube.com/@freecodecamp) - Their youtube videos on dom helped me to know how to fully integrate dom into the project
+
+## Author
+
+- Website - [2fa authentication site](https://tech-hack-challenge.web.app/)
+- Frontend Mentor - [@wizzycodes](https://www.frontendmentor.io/profile/wizzycodes)
+
+## Acknowledgments
+
+I would like to acknowledge [meejay18](https://www.frontendmentor.io/profile/meejay18) for inspiration through his solution to the challenge
