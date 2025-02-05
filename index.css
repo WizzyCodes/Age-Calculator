@@ -11,6 +11,16 @@ body {
   background-color: hsl(0, 0%, 94%);
   font-family: "Poppins";
 }
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 .Svg {
   color: blueviolet;
   position: relative;
