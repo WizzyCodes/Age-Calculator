@@ -245,19 +245,37 @@ input[type="number"]:focus {
   .form {
     width: 100%;
     padding: 50px;
-    height: auto;
+    height: 560px;
   }
-
+  .input {
+    width: 80%;
+    margin-right: 150px;
+    /* margin-bottom: 5px; */
+    gap: 0px;
+  }
+  .Svg {
+    position: relative;
+    left: 270px;
+    bottom: 80px;
+    /* width: 300px; */
+  }
   .holder {
     gap: 40px;
+  }
+  .line-image {
+    width: 80px;
+    height: 80px;
   }
 
   .day {
     width: 22%;
   }
-
+  label {
+    margin-left: 15px;
+  }
   input[type="number"] {
     font-size: 22px;
+    padding-left: 15px;
   }
 
   .Yearzz,
