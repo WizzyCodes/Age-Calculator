@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: darkslateblue;
+  background-color: hsl(0, 0%, 94%);
   font-family: "Poppins";
 }
 .Svg {
@@ -21,8 +21,8 @@ body {
 }
 .form {
   width: 90%;
-  max-width: 450px;
-  height: auto;
+  max-width: 700px;
+  height: 430px;
   margin: 20px;
   padding: 20px;
   background-color: #fff;
@@ -223,8 +223,9 @@ input[type="number"]:focus {
 
 @media (min-width: 1440px) {
   .form {
-    width: 800px;
+    width: 100%;
     padding: 50px;
+    height: auto;
   }
 
   .holder {
