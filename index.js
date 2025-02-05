@@ -102,8 +102,8 @@ document.addEventListener("DOMContentLoaded", function () {
     dayInput.value = "";
     monthInput.value = "";
     yearInput.value = "";
-    //   yearsDisplay.value = "";
-    //   monthsDisplay.value = "";
-    //   daysDisplay.value = "";
+    yearsDisplay.value = "";
+    monthsDisplay.value = "";
+    daysDisplay.value = "";
   });
 });
