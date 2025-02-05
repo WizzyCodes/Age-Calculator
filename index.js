@@ -16,23 +16,33 @@ document.addEventListener("DOMContentLoaded", function () {
     errorElement.style.width = "100%";
     return errorElement;
   }
-
   const dayError = createErrorElement();
   const monthError = createErrorElement();
   const yearError = createErrorElement();
+  function initial() {
+    dayInput.textContent = "";
+    monthInput.textContent = "";
+    yearInput.textContent = "";
+    yearsDisplay.textContent = "- -";
+    monthsDisplay.textContent = "- -";
+    daysDisplay.textContent = "- -";
+    dayError.textContent = "";
+    monthError.textContent = "";
+    yearError.textContent = "";
+  }
 
   dayInput.parentElement.appendChild(dayError);
   monthInput.parentElement.appendChild(monthError);
   yearInput.parentElement.appendChild(yearError);
 
-  button.addEventListener("click", function () {
-    dayError.textContent = "";
-    monthError.textContent = "";
-    yearError.textContent = "";
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
 
     const day = parseInt(dayInput.value, 10);
     const month = parseInt(monthInput.value, 10);
     const year = parseInt(yearInput.value, 10);
+    initial();
+
     let isValid = true;
 
     if (!dayInput.value) {
@@ -83,4 +93,5 @@ document.addEventListener("DOMContentLoaded", function () {
     monthsDisplay.textContent = ageMonths;
     daysDisplay.textContent = ageDays;
   });
+  initial();
 });
